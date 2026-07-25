@@ -1,16 +1,60 @@
-# React + Vite
+# 🎨 Background Changer
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple **React Background Changer** application that allows users to dynamically change the background color of the webpage by clicking different color buttons.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[View Live Project](https://background-changer-ten-snowy.vercel.app/?utm_source=chatgpt.com)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Change the background color with one click
+* Multiple color options
+* Smooth color transition
+* Simple and responsive UI
+* Built using React state management
 
-## Expanding the Oxlint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+* React.js
+* JavaScript
+* Tailwind CSS
+* Vite
+* Vercel
+
+## 🧠 What I Learned
+
+Through this project, I practiced:
+
+* React functional components
+* `useState` hook
+* Event handling with `onClick`
+* Dynamic styling in React
+* Tailwind CSS utility classes
+* Component structure in React
+* Building and deploying a Vite + React application
+
+## 🚀 Run Locally
+
+Clone the repository and open the project directory.
+
+```bash
+npm install
+npm run dev
+```
+
+Then open the local URL provided by Vite in your browser.
+
+## 📦 Production Build
+
+```bash
+npm run build
+```
+
+This generates the optimized production files inside the `dist` directory.
+
+## 👨‍💻 Author
+
+**Sohit Sahu**
+
+Built while learning React and Tailwind CSS.
